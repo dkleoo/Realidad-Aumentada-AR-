@@ -56,4 +56,17 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    /** Lottie animation **/
+    implementation(libs.lottie.compose)
+
+    /** Coil async image **/
+    implementation(libs.coil.kt)
+    implementation(libs.coil.kt.network)
+
+    /** Scene View **/
+    implementation(libs.scene.view)
+
+
+
 }
